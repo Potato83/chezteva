@@ -6,7 +6,7 @@ get_header(); ?>
 
 <section id="home-page">
 	
-	<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.jpg" alt="logo" class="logo">
+	<img src="<?php bloginfo('stylesheet_directory'); ?>/build/img/logo.jpg" alt="logo" class="logo">
 
 	<div class="info-box">
 		<p class="info">5143 Boulevard D&eacute;carie</p>

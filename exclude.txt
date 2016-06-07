@@ -1,5 +1,5 @@
-node_modules/**
-assets/**
+node_modules/
+assets/
 exclude.txt
 gruntfile.js
 package.json

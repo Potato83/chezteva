@@ -17,20 +17,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<!-- Normalize -->
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/normalize.css">
-
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css"> 
-
-<!-- Bootstrap theme -->
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap-theme.min.css">
-
-<!-- CUSTOM CSS -->
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/main.css">
-
-<!-- FontAwesome Icons -->
-<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/build/css/style.min.css">
 
 <?php wp_head(); ?>
 <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->

@@ -15,7 +15,7 @@ grunt.initConfig({
 
     uglify: {
       build: {
-        src: 'assets/js/main.js',
+        src: 'assets/**/*.js',
         dest: 'build/js/main.min.js'
       }
     },
@@ -43,7 +43,7 @@ grunt.initConfig({
         },
         js_output: {
           // triggers a soft JS only refresh
-          files: '**/*.js',
+          files: 'assets/**/*.js',
           tasks: ['uglify'],
           spawn: false,
           options: { livereload: true }
