@@ -1,5 +1,5 @@
 .logo{
-	top: 0;
+	top: 50px;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -84,4 +84,8 @@ td{
 		font-size: 22px;
 		width: 50%;
 	}
+}
+
+.borp{
+	background-size: 11%;
 }

@@ -1,0 +1,11 @@
+node_modules/**
+assets/**
+exclude.txt
+gruntfile.js
+package.json
+.DS_Store
+.git
+.jscsrc
+.jshintignore
+readme.txt
+README.md
